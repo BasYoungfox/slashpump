@@ -72,21 +72,6 @@ const HeroSection = () => {
             </div>
           </TerminalWindow>
 
-          {/* Live Stats Ticker */}
-          <div className="mt-8 flex flex-wrap justify-center gap-6 text-center">
-            <div className="animate-slideIn" style={{ animationDelay: '0.2s' }}>
-              <p className="text-3xl font-display font-bold text-primary text-glow">$4.2M</p>
-              <p className="text-xs text-muted-foreground uppercase">Market Cap</p>
-            </div>
-            <div className="animate-slideIn" style={{ animationDelay: '0.3s' }}>
-              <p className="text-3xl font-display font-bold text-secondary">12,847</p>
-              <p className="text-xs text-muted-foreground uppercase">Holders</p>
-            </div>
-            <div className="animate-slideIn" style={{ animationDelay: '0.4s' }}>
-              <p className="text-3xl font-display font-bold text-accent">+847%</p>
-              <p className="text-xs text-muted-foreground uppercase">24h Change</p>
-            </div>
-          </div>
         </div>
       </div>
 

@@ -6,25 +6,25 @@
 
 @layer base {
   :root {
-    --background: 220 20% 4%;
-    --foreground: 180 100% 50%;
+    --background: 220 15% 6%;
+    --foreground: 160 40% 65%;
 
-    --card: 220 20% 8%;
-    --card-foreground: 180 100% 50%;
+    --card: 220 15% 10%;
+    --card-foreground: 160 40% 65%;
 
-    --popover: 220 20% 6%;
-    --popover-foreground: 180 100% 50%;
+    --popover: 220 15% 8%;
+    --popover-foreground: 160 40% 65%;
 
-    --primary: 180 100% 50%;
-    --primary-foreground: 220 20% 4%;
+    --primary: 160 45% 55%;
+    --primary-foreground: 220 15% 6%;
 
-    --secondary: 280 100% 60%;
+    --secondary: 200 35% 50%;
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 220 20% 15%;
-    --muted-foreground: 180 50% 40%;
+    --muted: 220 15% 14%;
+    --muted-foreground: 160 25% 45%;
 
-    --accent: 320 100% 60%;
+    --accent: 180 40% 50%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
@@ -37,12 +37,12 @@
     --radius: 0.5rem;
 
     /* Custom tokens */
-    --terminal-green: 120 100% 50%;
-    --terminal-cyan: 180 100% 50%;
-    --terminal-magenta: 300 100% 60%;
-    --neon-glow: 0 0 20px hsl(180 100% 50% / 0.8), 0 0 40px hsl(180 100% 50% / 0.4);
-    --text-glow: 0 0 10px hsl(180 100% 50% / 0.8);
-    --grid-color: hsl(180 100% 50% / 0.05);
+    --terminal-green: 160 45% 55%;
+    --terminal-cyan: 180 40% 50%;
+    --terminal-magenta: 200 35% 50%;
+    --neon-glow: 0 0 15px hsl(160 45% 55% / 0.3), 0 0 30px hsl(160 45% 55% / 0.15);
+    --text-glow: 0 0 8px hsl(160 45% 55% / 0.4);
+    --grid-color: hsl(160 45% 55% / 0.03);
   }
 
   .dark {
