@@ -1,12 +1,1 @@
-import React from "react";
-
-const UtilPage: React.FC = () => {
-  return (
-    <div>
-      <h1>Crypto Utility</h1>
-      <p>Here’s your simple util.</p>
-    </div>
-  );
-};
-
-export default UtilPage;
+import Navbar from '@/components/Navbar'; import HeroSection from '@/components/HeroSection'; import TokenomicsSection from '@/components/TokenomicsSection'; import HowToBuySection from '@/components/HowToBuySection'; import Footer from '@/components/Footer'; const Index = () => { return ( <div className="min-h-screen relative overflow-x-hidden bg-gradient-main"> <Navbar /> <HeroSection /> <TokenomicsSection /> <HowToBuySection /> <Footer /> </div> ); }; export default Index;
