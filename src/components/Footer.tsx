@@ -1,13 +1,6 @@
-import { Twitter, Send, MessageCircle, Github } from 'lucide-react';
+import { Twitter } from 'lucide-react';
 
 const Footer = () => {
-  const socials = [
-    { icon: Twitter, href: '#', label: 'Twitter' },
-    { icon: Send, href: '#', label: 'Telegram' },
-    { icon: MessageCircle, href: '#', label: 'Discord' },
-    { icon: Github, href: '#', label: 'GitHub' },
-  ];
-
   return (
     <footer className="py-12 border-t border-border">
       <div className="container mx-auto px-4">
@@ -17,18 +10,17 @@ const Footer = () => {
             /pump<span className="blink-cursor">_</span>
           </a>
 
-          {/* Socials */}
+          {/* Social */}
           <div className="flex gap-4">
-            {socials.map((social) => (
-              <a
-                key={social.label}
-                href={social.href}
-                className="w-10 h-10 bg-muted rounded-lg flex items-center justify-center text-muted-foreground hover:text-primary hover:bg-card transition-colors neon-border"
-                aria-label={social.label}
-              >
-                <social.icon className="w-5 h-5" />
-              </a>
-            ))}
+            <a
+              href="https://x.com/frslashpump"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-10 h-10 bg-muted rounded-lg flex items-center justify-center text-muted-foreground hover:text-primary hover:bg-card transition-colors neon-border"
+              aria-label="Twitter"
+            >
+              <Twitter className="w-5 h-5" />
+            </a>
           </div>
 
           {/* Disclaimer */}
@@ -39,7 +31,7 @@ const Footer = () => {
 
           {/* Copyright */}
           <p className="text-xs text-muted-foreground font-mono">
-            &copy; 2024 /pump_ | All rights reserved
+            &copy; 2025 /pump_ | All rights reserved
           </p>
         </div>
       </div>
