@@ -9,9 +9,11 @@ const Index: React.FC = () => {
   return (
     <>
       <Head>
-        <title>/PUMP</title>
-        <meta name="description" content="<meta name="description" content="/pump Token — 100% community owned crypto coin. Fair launch, zero taxes, liquidity permanently locked. Join the /pump movement today." />
-" />
+        <title>/PUMP Token</title>
+        <meta
+          name="description"
+          content="/PUMP Token — 100% community owned crypto coin. Fair launch, zero taxes, liquidity permanently locked. Join the /PUMP movement today."
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
 
