@@ -17,9 +17,9 @@ const HowToBuySection = () => {
     },
     {
       icon: ArrowRightLeft,
-      title: 'Swap on Jupiter',
-      description: 'Connect your wallet to Jupiter or Raydium. Paste the $PUMP contract address and swap your SOL.',
-      command: 'swap.execute()',
+      title: 'Buy on Pump.fun',
+      description: 'Connect your wallet to Pump.fun. Paste the $PUMP contract address and buy your tokens.',
+      command: 'buy.pump()',
     },
     {
       icon: Rocket,
@@ -69,13 +69,13 @@ const HowToBuySection = () => {
         {/* CTA */}
         <div className="text-center mt-12">
           <a
-            href="https://jup.ag"
+            href="https://pump.fun/coin/"
             target="_blank"
             rel="noopener noreferrer"
             className="cyber-button-filled inline-flex items-center gap-2"
           >
             <Rocket className="w-5 h-5" />
-            BUY ON JUPITER
+            BUY ON PUMP.FUN
           </a>
         </div>
       </div>
