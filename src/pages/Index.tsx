@@ -1,18 +1,28 @@
+import Head from 'next/head';
 import Navbar from '@/components/Navbar';
 import HeroSection from '@/components/HeroSection';
 import TokenomicsSection from '@/components/TokenomicsSection';
 import HowToBuySection from '@/components/HowToBuySection';
 import Footer from '@/components/Footer';
 
-const Index = () => {
+const Index: React.FC = () => {
   return (
-    <div className="min-h-screen relative overflow-x-hidden bg-gradient-main">
-      <Navbar />
-      <HeroSection />
-      <TokenomicsSection />
-      <HowToBuySection />
-      <Footer />
-    </div>
+    <>
+      <Head>
+        <title>/PUMP</title>
+        <meta name="description" content="<meta name="description" content="/pump Token — 100% community owned crypto coin. Fair launch, zero taxes, liquidity permanently locked. Join the /pump movement today." />
+" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </Head>
+
+      <div className="min-h-screen relative overflow-x-hidden bg-gradient-main">
+        <Navbar />
+        <HeroSection />
+        <TokenomicsSection />
+        <HowToBuySection />
+        <Footer />
+      </div>
+    </>
   );
 };
 
